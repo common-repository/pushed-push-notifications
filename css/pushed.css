@@ -1,0 +1,69 @@
+#pushed_checkbox_send_push {
+	margin: 1px 1px 0 0;
+}
+
+#pushed_message_content {
+	width: 100%;
+	height: 100px;
+}
+
+#pushed_select_source {
+	width: 100%;
+}
+
+.pushed_msg 
+{
+	display: inline;
+	padding: .2em .6em .3em;
+	line-height: 1;
+	white-space: nowrap;
+	vertical-align: baseline;
+	border-radius: .25em;
+	width: 100%;
+}
+
+.pushed_error_msg {
+	color: #b94a48;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}
+
+.pushed_error_msg a {
+	color: #953b39;
+	font-weight: bold;
+}
+
+.pushed_success_msg {
+	color: #468847;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+
+.pushed_success_msg a {
+	color: #356635;
+	font-weight: bold;
+}
+
+.pushed_warning_msg {
+    color: #c09853;
+    background-color: #fcf8e3;
+    border-color: #faebcc;
+}
+
+.pushed_warning_msg a {
+	color: #a47e3c;
+}
+
+.pushed_warning_msg img {
+	max-height: 15px;
+	vertical-align: middle;
+	margin-right: 5px;
+}
+
+input[name='pushed_app_key[text_string]'],
+input[name='pushed_app_secret[text_string]'],
+input[name='pushed_target_alias[text_string]'],
+input[name='pushed_api_key[text_string]'],
+select[name='pushed_target_type[text_string]']{
+	width: 50%;
+}
